@@ -1,4 +1,32 @@
-# milkv baremetal toolbox
+# milkv baremetal toolkit
+This is a tookit that builds ready-to-flash .img images for Milk-V duo 256M, enabling custom OS development from scratch.
+
+I created this respository for the reason that I think the existing tutorials are not very newbie-friendly to me. This toolkit will tell you how to get all the toolchain you need and build the image in one click.
+
+## Dependency
+You should install the cross compile toolchain.
+```shell
+sudo apt update
+sudo apt install gcc-riscv64-unknown-elf
+```
+## Usage
+**Notice: For the convenience reason, I use some pre-build binaries. However, if you don't want to use the pre-build binaries for security reason, I will write a full tutorial of how to build these binaries from source.**
+
+First, clone the repository.
+```shell
+git clone https://github.com/rota1001/milkv-baremetal-toolkit.git
+```
+Second, use `make` to compile and produce the kernel image.
+```shell
+cd milkv-baremetal-toolkit
+make
+```
+
+Then you will get the `kernel.img`, you can flash it to the SD card. It will output the `helloworld` through the UART serial port.
+
+## Previous Work
+[Use Opensbi to boot your own operating system](https://forum.sophgo.com/t/use-opensbi-to-boot-your-own-operating-system/340)
+
 
 ## License and Third-Party Software
 
