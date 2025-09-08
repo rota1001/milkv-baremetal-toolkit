@@ -24,6 +24,9 @@ make
 
 Then you will get the `kernel.img`, you can flash it to the SD card. It will output the `helloworld` through the UART serial port.
 
+## Run your own OS
+Notice that the `example/` directory consists of a minimal OS example, you can read the `Makefile` to understand how it works.
+
 ## Previous Work
 [Use Opensbi to boot your own operating system](https://forum.sophgo.com/t/use-opensbi-to-boot-your-own-operating-system/340)
 
