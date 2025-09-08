@@ -1,0 +1,6 @@
+[submodule "genimage"]
+	path = genimage
+	url = https://github.com/pengutronix/genimage.git
+[submodule "fiptool"]
+	path = fiptool
+	url = https://github.com/sophgo/fiptool.git
