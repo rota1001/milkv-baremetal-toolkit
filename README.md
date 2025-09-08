@@ -14,7 +14,7 @@ sudo apt install gcc-riscv64-unknown-elf
 
 First, clone the repository.
 ```shell
-git clone https://github.com/rota1001/milkv-baremetal-toolkit.git
+git clone --recurse-submodules https://github.com/rota1001/milkv-baremetal-toolkit.git
 ```
 Second, use `make` to compile and produce the kernel image.
 ```shell
