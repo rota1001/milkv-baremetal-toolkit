@@ -53,3 +53,9 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+kernel.bin
+kernel.elf
+kernel.img
+boot.vfat
+fip.bin
