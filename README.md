@@ -1,5 +1,5 @@
 # milkv baremetal toolkit
-This is a tookit that builds ready-to-flash .img images for Milk-V duo 256M, enabling custom OS development from scratch.
+This is a lightweight toolkit that builds ready-to-flash .img images for Milk-V duo 256M, enabling custom OS development from scratch.
 
 I created this respository for the reason that I think the existing tutorials are not very newbie-friendly to me. This toolkit will tell you how to get all the toolchain you need and build the image in one click.
 
@@ -10,7 +10,7 @@ sudo apt update
 sudo apt install gcc-riscv64-unknown-elf
 ```
 ## Usage
-**Notice: For the convenience reason, I use some pre-build binaries. However, if you don't want to use the pre-build binaries for security reason, I will write a full tutorial of how to build these binaries from source.**
+**Notice: For the convenience reason, I use some pre-build binaries. However, if you don't want to use the pre-build binaries for security reason, I have made a [full tutorial](docs/toolchain.md) of how to build these binaries from source.**
 
 First, clone the repository.
 ```shell
