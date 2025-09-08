@@ -7,7 +7,7 @@ I created this respository for the reason that I think the existing tutorials ar
 You should install the cross compile toolchain.
 ```shell
 sudo apt update
-sudo apt install gcc-riscv64-unknown-elf
+sudo apt install gcc-riscv64-unknown-elf libconfuse-dev mtools
 ```
 ## Usage
 **Notice: For the convenience reason, I use some pre-build binaries. However, if you don't want to use the pre-build binaries for security reason, I have made a [full tutorial](docs/toolchain.md) of how to build these binaries from source.**
